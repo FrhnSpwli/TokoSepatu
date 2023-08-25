@@ -1,0 +1,20 @@
+###
+GET http://localhost:3000/produk
+
+###
+# Get Produk by ID
+GET http://localhost:3000/produk/1
+
+###
+# Create Produk
+POST http://localhost:3000/produk
+Content-Type: application/json
+
+{
+    "title": "Produk 1",
+    "description": "lorem ipsum",
+    "full_description": "lorem ipsum",
+    "image": "NULL",
+    "price": 10000,
+    "category_id": 1
+}

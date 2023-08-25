@@ -1,0 +1,85 @@
+.row h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.color_primary {
+  color: var(--primary);
+}
+
+.form_2_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.grid_form_2 {
+  height: 200px;
+  margin: 0;
+  padding: 20px;
+}
+
+.grid_form_2 input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.grid_form_2 textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.payment_method {
+  margin: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.payment_method svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--primary);
+}
+
+.payment_method span {
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+.proses_bayar {
+  display: block;
+  background-color: #f5f5f5;
+  color: var(--primary);
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 100px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+.proses_bayar:hover {
+  background-color: var(--primary);
+  color: white;
+}

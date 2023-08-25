@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+  --primary:#40BFFF;
+  --secondary: #BCDDFE;
+  --red: #ff6875;
+}
+
+* {
+  margin: 0px;
+  padding: none; 
+  font-family: poppins;
+}
+
+.wrapper {
+  min-height: 470px;
+}
+
+.banner_1 {
+  width: 100%;
+  text-align: center;
+  background-image: url("../assets/images/homepage\ 1.png");
+  background-size: cover;
+  margin: none;
+}
+
+.banner_1 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #f5f5f5;
+  padding-top: 175px;
+}
+
+.card {
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+.grid_produk {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 20px;
+}
+
+.item_produk {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column;
+  align-items: center;
+  width: 23%;
+  gap: 10px;
+}
+
+.item_produk p {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.item_produk h4 {
+  color: var(--primary);
+  font-size: medium;
+  font-weight: 700;
+}
+
+.item_produk a {
+  background: var(--primary);
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #f5f5f5;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.item_produk Link:hover {
+  opacity: .6;
+}
+
+.item_produk img {
+  width: 200px;
+  height: 200px;
+}
+
+.input_group_1 input[type=search] {
+  padding: 12px 25px;
+  border: var(--secondary) 2px solid;
+  border-radius: 5px 0 0 5px;
+  width: 400px;
+  font-size: 16px;
+}
+
+.input_group_1 button {
+  background-color: var(--primary);
+  padding: 14px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #f5f5f5;
+}
+
+.bg_primary {
+  background-color: var(--primary);
+}
+
+.row1 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.grid_2_text {
+  padding: 50px;
+  color: #f5f5f5;
+  font-weight: 700;
+}
+
+
+.grid_2_text a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.grid_2_text a:hover {
+  color: darkblue;
+}
+
+.grid_2 img {
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 700px;
+  width: 700px;
+}
+
+.grid_3 {
+  padding: 0 200px;
+  display: inline-flex;
+}
+
+.grid_3 div {
+  width: 33.333333%;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.grid_3 div svg {
+  width: 100px !important;
+  height: 100px !important;
+  color: var(--red) !important;
+}
